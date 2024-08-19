@@ -5,6 +5,15 @@
 	required_reagents = list("morphine" = 1, "sacid" = 1, "water" = 1, "oil" = 1)
 	result_amount = 2
 
+/datum/reagent/medicine/synaptizine/recal
+	name = "Recal"
+	id = "recal"
+	result = "recal"
+	required_reagents = list("silicon" = 1, "copper" = 1, "silver" = 1)
+	result_amount = 2
+	min_temp = T0C + 100
+	mix_message = "The solution bubbles and forms an oily liquid."
+
 /datum/chemical_reaction/mitocholide
 	name = "mitocholide"
 	id = "mitocholide"
