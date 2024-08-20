@@ -5,7 +5,7 @@
 	required_reagents = list("morphine" = 1, "sacid" = 1, "water" = 1, "oil" = 1)
 	result_amount = 2
 
-/datum/reagent/medicine/synaptizine/recal
+/datum/chemical_reaction/synaptizine/recal
 	name = "Recal"
 	id = "recal"
 	result = "recal"
