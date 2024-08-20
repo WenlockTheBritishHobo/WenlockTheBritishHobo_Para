@@ -9,7 +9,7 @@
 	name = "Recal"
 	id = "recal"
 	result = "recal"
-	required_reagents = list("silicon" = 1, "copper" = 1, "silver" = 1. "oil" = 1)
+	required_reagents = list("silicon" = 1, "copper" = 1, "silver" = 1, "oil" = 1)
 	result_amount = 3
 	min_temp = T0C + 100
 	mix_message = "The solution bubbles and forms an oily liquid."
