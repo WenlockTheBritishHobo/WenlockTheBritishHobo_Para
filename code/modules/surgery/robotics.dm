@@ -359,7 +359,9 @@
 	allowed_tools = list(
 		/obj/item/stack/nanopaste = 100,
 		TOOL_BONEGEL = 30,
-		TOOL_SCREWDRIVER = 70
+		TOOL_SCREWDRIVER = 70,
+		/obj/item/screwdriver/power = 90,
+		/obj/item/coin = 35
 	)
 
 /datum/surgery_step/robotics/manipulate_robotic_organs/mend/begin_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool, datum/surgery/surgery)
