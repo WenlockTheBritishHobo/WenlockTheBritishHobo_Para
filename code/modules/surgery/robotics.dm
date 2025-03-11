@@ -248,9 +248,7 @@
 
 /datum/surgery_step/robotics/external/repair/burn/begin_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool, datum/surgery/surgery)
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	var/obj/item/stack/cable_coil/C = tool
-	if(tool == /obj/item/stack/rods)
-		/obj/item/stack/rods/C = tool
+	var/obj/item/stack/C = tool
 	if(!(affected.burn_dam > 0))
 		to_chat(user, "<span class='warning'>\The [affected] does not have any burn damage!</span>")
 		return SURGERY_BEGINSTEP_SKIP
