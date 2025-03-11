@@ -482,7 +482,10 @@
 
 /datum/surgery_step/robotics/manipulate_robotic_organs/extract
 	name = "extract cybernetic organ"
-	allowed_tools = list(TOOL_MULTITOOL = 100)
+	allowed_tools = list(
+		TOOL_MULTITOOL = 100,
+		TOOL_WIRECUTTER = 50
+		)
 	var/obj/item/organ/internal/I
 
 /datum/surgery_step/robotics/manipulate_robotic_organs/extract/begin_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool, datum/surgery/surgery)
