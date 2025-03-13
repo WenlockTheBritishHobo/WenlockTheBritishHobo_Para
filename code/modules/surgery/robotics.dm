@@ -294,7 +294,8 @@
 	name = "repair brute damage"
 	allowed_tools = list(
 		TOOL_WELDER = 100,
-		/obj/item/gun/energy/plasmacutter = 50
+		/obj/item/gun/energy/plasmacutter = 50,
+		/obj/item/melee/energy/sword = 5
 	)
 
 /datum/surgery_step/robotics/external/repair/brute/begin_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool, datum/surgery/surgery)
