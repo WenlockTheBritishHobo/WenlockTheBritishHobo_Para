@@ -222,7 +222,7 @@
 		var/Volume = volume
 		fire_flash_log(holder, id)
 		Holder.del_reagent(Id)
-		fireflash_sm(S, 0, rand(20000, 25000) + Volume * 2500, 0, 0, 1)
+		fireflash_sm(S, 0, Volume * 166, 0, 0, 1) // Previous fireflash temp instantly melted rwalls, this is the intended temp so that 100u is required to melt an rwall.
 
 /datum/reagent/thermite/reaction_turf(turf/simulated/S, volume)
 	if(istype(S))
